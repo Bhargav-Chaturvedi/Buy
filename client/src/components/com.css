@@ -1,0 +1,115 @@
+/* com.css */
+/* com.css */
+
+.messages-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #333; /* Adjust the color as needed */
+  }
+  
+.memo-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .columnNames th {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .column {
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .memo-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .memo-cell:last-child {
+    border-bottom: none;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  /* For Buy.js file  */
+  /* CSS for Form Container */
+.forms {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* CSS for Form Label */
+  .lables {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* CSS for Form Input */
+  .inputArea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /* CSS for Form Button */
+  .button {
+    background-color: #1e3799;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #4e6ab2;
+  }
+  
